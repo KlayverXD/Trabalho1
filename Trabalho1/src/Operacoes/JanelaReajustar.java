@@ -101,7 +101,7 @@ public class JanelaReajustar extends javax.swing.JFrame {
 
         if (numConta == obj2.getNumero()) {
 
-            int yn = JOptionPane.showConfirmDialog(null, obj2.getNome() + " ,deseja confirmar o depósito?", "", JOptionPane.YES_NO_OPTION);
+            int yn = JOptionPane.showConfirmDialog(null, obj2.getNome() + " ,deseja confirmar o reajuste?", "", JOptionPane.YES_NO_OPTION);
 
             if (yn == JOptionPane.YES_OPTION) {
 
